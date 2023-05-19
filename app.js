@@ -1,5 +1,8 @@
 let randomArray = [];
 let numeros = document.getElementById("numeros");
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+const resultadosActualizados = document.getElementById("resultados-actualizados");
 
 // Create a function that will return an array of 10 random numbers from 1 to 10
 function getRandomNumbers() {
@@ -32,9 +35,12 @@ function sumNumbers() {
   return sum;
 }
 
+button.addEventListener("click", () => {
+  sumNumbers() === parseInt(input.value) ? resultadosActualizados.innerHTML = `${randomArray} = ${sumNumbers()} ✅` : resultadosActualizados.innerHTML = `${randomArray} = ${sumNumbers()} ❌ Tu respuesta: ${input.value}`;
+})
+
 getRandomNumbers();
 showNumbers();
-sumNumbers();
 
 console.log(getRandomNumbers());
 console.log(sumNumbers());
