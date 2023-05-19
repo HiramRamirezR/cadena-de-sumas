@@ -14,18 +14,20 @@ p {
   height: 100px;
   margin: 0 auto;
   border-radius: 10px;
-
-  p {
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-  }
+}
+#container p {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
 }
 
 @keyframes example {
-  from {background-color: rgb(255, 255, 255);}
-  to {background-color: rgb(0, 0, 0);}
+  from {
+    background-color: rgb(255, 255, 255);
+  }
+  to {
+    background-color: rgb(0, 0, 0);
+  }
 }
-
 .div-numeros {
   display: flex;
   justify-content: center;
@@ -35,4 +37,4 @@ p {
   animation-duration: 3s;
   animation-delay: 3s;
   animation-iteration-count: 10;
-}
+}/*# sourceMappingURL=style.css.map */
