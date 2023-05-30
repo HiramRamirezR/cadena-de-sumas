@@ -23,7 +23,7 @@ function showNumbers() {
       } else {
           clearInterval(interval);
       }
-  }, 5000);
+  }, 8000);
 }
 
 // Create a function to show the sum of the numbers
