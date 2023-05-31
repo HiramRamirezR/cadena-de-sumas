@@ -25,18 +25,17 @@ p {
   border: 3px solid rgb(139, 255, 104);
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 80%;
   height: 100px;
   margin: 0 auto;
   border-radius: 10px;
 }
 #container p {
   color: rgb(48, 48, 48);
-  font-size: 60px;
+  font-size: 40px;
   animation-name: example;
-  animation-duration: 5s;
-  animation-delay: 5s;
-  animation-iteration-count: 10;
+  animation-duration: 30s;
+  animation-iteration-count: 1;
 }
 
 .div-numeros {
