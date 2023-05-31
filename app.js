@@ -6,7 +6,7 @@ const resultadosActualizados = document.getElementById("resultados-actualizados"
 // Create a function that will return an array of 10 random numbers from 1 to 10
 function getRandomNumbers() {
   randomArray = [];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 5; i++) {
       randomArray.push(Math.floor(Math.random() * 10));
   }
   numeros.innerHTML = randomArray;
